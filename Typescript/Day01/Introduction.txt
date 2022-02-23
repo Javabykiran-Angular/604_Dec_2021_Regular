@@ -1,0 +1,16 @@
+				Welcome To Angular Module
+				  Sumit Raokhande
+
+- we learn only Angular 8 
+- session avg 1.15 min it may be increase to 1.30 or 1 hr
+- after Every session we have 5-10 min doubt
+- monday to friday
+- saturday our doubt solving session
+- all codes available for you 
+- for that i made one git hub repo.
+- u get recording as well 
+- basic to inertmediate level topic
+- typescript after that we learn Angular 8
+- at least u have know Basics of HTML ,CSS & oops concept
+- Duration 45 Hrs
+- 
