@@ -1,0 +1,4 @@
+Environmental Setup introduction
+
+Check the Angular Architecture
+https://youtube.com/playlist?list=PLa3i9wpSPojEDNTe66s5XhXPSd50XqjSv

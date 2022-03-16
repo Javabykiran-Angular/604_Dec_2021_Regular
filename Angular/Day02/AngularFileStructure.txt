@@ -1,0 +1,65 @@
+
+Explain File Structure - 
+
+1 e2e-End to End
+	It is used for end to end testing tool from product testing to production level (i.e. upto live) basically it required for dev ops people
+
+2 .editorconfig- 
+	It has "dot" before file name so,It is hidden file .It is used for every one for character editing to configure a editor according to your requirements
+3 .gitignore- 
+	Basically name implies "ignore" which content to ignore while uploading your work to github, for that purpose it is used.
+4 angular.json- 
+	It gives All information about the project.Information about File structure path e.g development,testing,e2e-End,production.It is main file for angular to use internally.
+5 Package.json-
+	It has dependancy to add it.There are 2 dependancy 
+	1 Run dependancy
+	2 Dev dependancy
+	It is same as your java i.e. JVM- Run dependancy & JDK- Dev dependancy
+6 tsconfig- 
+	It used for typescript configuration, it contain information about typescript which version it is used, which standard it follows etc
+7 tslint-
+	Which variable has required intelligence or not that you can specify. Developer did not worried about this file.
+8 Environments - 
+	It is used for to live a project to set flag as environment development to production level.This all stuff handled by DevOps people
+9 styles.css-
+	It is global style sheet,to apply css globally to all.
+10 polyfills.ts-
+	It required for angular to fill gap between ES5,ES6 & ES7, Also it it is used for to import animations at browser level.
+11 Karma.config-
+	It is foundation of testing work flow. Ii is used to download jasmine plugin framework. Jasmine framework is used for testing.It is used to enable the plugin
+12 test.ts-
+	It is used for testing purpose
+13 Index.html-
+	It is main file to load your angular application in the browser
+14 main.ts-
+	It is again main file, also it is called entry point function.
+15 assets folder-
+	It is used for to keep static data inside the assets folder (image,audio,video or custom json file)
+16 App folder - 
+		It is used for developer to store component files. Every component has 4 basic files
+		1 app.component.html - It is used for View Purpose to end user
+		2 app.component.css - It is used to apply style effect for particular 	 component
+		3 app.component.ts -It is used to process presentation logic data
+		4 app.component.specs.ts - It is used for testing file. Every component has one specs.ts file.
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
