@@ -1,0 +1,16 @@
+<p>property-binding works!</p>
+
+<!-- synrax => [html Attribute/directive/custom Attribute]="Property_Name" -->
+
+<input type="text" [value]="name"> <br><br>
+<img id="myimage" [src]="ImgUrl" alt="">
+<hr>
+<h2>Check Diff. between String Interpolation & Property binding</h2>
+
+<div hidden=" {{isHidden}} ">
+  String Interpolation
+</div> <br><br>
+
+<div [hidden]="isHidden">
+  Property Binding
+</div>
