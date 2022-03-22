@@ -1,0 +1,11 @@
+
+img{
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  border: 3px solid red;
+  /* border-radius: 30px; */
+
+  border-radius: 50%;
+
+}
