@@ -1,0 +1,26 @@
+<p>event-binding2 works!</p>
+
+<!-- template Refernce variable -->
+<!-- we can create on HTML element 
+    syntax => #UniqueName
+    it holds object/handle/refernce of html element. It holds all information about that html element
+    - we can access its value as well as full html attribute
+    - we can set a data of that html element
+-->
+<!-- 
+  <input #inputname type="text" placeholder="Enter the Name.." > <br><br>
+  <button (click)="onSend(inputname)">Send</button>
+  <hr>
+
+  <input #inputname1 type="text" placeholder="Enter the Name.." > <br><br>
+  <button (click)="onSend1(inputname1.value)">Send Only Value</button> -->
+
+<!-- <input type="number" #num1 placeholder="Enter the Number 1"> <br><br>
+<input type="number" #num2 placeholder="Enter the Number 2"> <br><br>
+<button (click)="onAddition(num1.value,num2.value)" >Addition</button> <br><br>
+<input type="number" [value]="res" placeholder="Result"> -->
+
+
+<input #myname type="text" placeholder="Enter the Name" (change)="onChange(myname)" >
+
+
