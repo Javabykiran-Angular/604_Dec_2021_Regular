@@ -1,0 +1,29 @@
+<p>two-way-binding works!</p>
+
+<!-- //without customn  method u can perform event binding -->
+
+<button (click)="res=2+2" >Addition</button> <br>
+<h2>Result is :: {{res}} </h2>
+<hr>
+<!-- Two way Binding -->
+
+<!-- syntax => [()] => banna in the box 
+      [(ngModel)]="propertyName"
+we have import one module => FormsModule
+-->
+
+<!-- <input type="text" [(ngModel)]="name" > <br>
+<h2> {{name}} </h2> <br><br>
+<button [(ngModel)]="btnName" (click)="onBtnChange()" > {{btnName}} </button> <br> <br>
+
+<input [(ngModel)]="name1" type="text" placeholder="Enter the name"> <br><br>
+<button (click)="onDisplay()">Display</button> <br><br>
+<input type="text" placeholder="Result" [style.border]="errorBorder"
+[value]="name2"> -->
+
+<input type="text" (keyup)="onKeyUp()"
+placeholder="Key Up Event" > <br><br>
+
+<input type="text" (keydown)="onKeydown()"
+placeholder="Key Down Event" >
+
