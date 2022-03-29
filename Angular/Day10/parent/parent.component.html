@@ -1,0 +1,21 @@
+ <p>parent works!</p>
+
+<!-- Parent to Child Implementation -->
+<!-- <app-child1 [ParentData]="strdata"
+  [ParentJson]="myjson"
+></app-child1> -->
+<!-- <hr> -->
+
+<h2> Data :: {{StrdataFromChild}} </h2>
+
+<h2> ID :: {{jsonDataFromChild.id}} </h2>
+<h2>Product name :: {{jsonDataFromChild.product}} </h2>
+<h2> Price :: {{jsonDataFromChild.price}} </h2>
+
+<hr>
+
+<!-- Child to parent Implementation -->
+
+<app-child2 (childStrEvent)="StrdataFromChild=$event" 
+      (ChildJsonEvent)="jsonDataFromChild=$event"
+></app-child2>
