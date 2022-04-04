@@ -1,0 +1,22 @@
+<p>post works!</p>
+
+<input #inputtitle type="text" placeholder="Enter the Title"> <br><br>
+<input #inputbody type="text" placeholder="Enter the body"> <br><br>
+<button (click)="onSend(inputtitle.value,inputbody.value)">Send</button>
+
+
+<hr>
+<table border="1px">
+  <thead>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Body</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of posts">
+      <td> {{item.id}} </td>
+      <td> {{item.title}} </td>
+      <td> {{item.body}} </td>
+    </tr>
+  </tbody>
+</table>
