@@ -1,0 +1,16 @@
+<p>home works!</p>
+
+<input #inputname type="text" placeholder="Enter the name">
+<hr>
+<a routerLink="/Page1">Page1</a>
+<a [routerLink]="['/Page2',myid]">Page2</a>
+<a [routerLink]="['/Page3',myid,myusername]">Page3</a>
+<a routerLink="/Follower">Follower</a>
+<a routerLink="/Queryparamter" [queryParams]="myjson" >Queryparamter</a>
+<hr>
+
+<button (click)="onPage1(inputname.value)" >Page1</button>
+<button (click)="onPage2()">Page2</button>
+<button (click)="onPage3()">Page3</button>
+<button (click)="onFollower()">Follower</button>
+<button (click)="onQueryParam()">Queryparameter</button>
