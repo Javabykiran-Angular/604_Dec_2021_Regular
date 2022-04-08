@@ -1,0 +1,41 @@
+<p>demo-bootstrap works!</p>
+
+<div class="container">
+
+
+    <div class="row">
+      <div class="col-sm-4 col-md-6 col-lg-6">
+
+        <table class="table table-bordered  table-dark table-hover">
+          <thead>
+            <th>#</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of arryObj;index as i">
+              <td> {{i+1}} </td>
+              <td> {{item.name}} </td>
+              <td> {{item.price}} </td>
+              <td> {{item.quantity}} </td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+      <div class="col">
+          <div class="form-group">
+            <label for="">Username::</label>
+            <input type="text" class="form-control"
+             placeholder="Enter the Username">
+             <label for="">Password::</label>
+             <input type="password" class="form-control"
+             placeholder="Enter the password">
+             <br>
+             <button class="btn btn-success">Login</button>
+          </div>
+      </div>
+    </div>
+
+</div>
